@@ -5,7 +5,7 @@ $(document).ready(function() {
 
         $(".name").text(name);
         $("#landing").hide();
-        $("#survey").show();
+        $("#survey").fadeIn();
 
         event.preventDefault();
     });
@@ -18,18 +18,20 @@ $(document).ready(function() {
         var company = parseInt($("select#company").val());
         var size = parseInt($("select#size").val());
 
+        event.preventDefault();
      
         if (experience === 1 && 
             stack   === 3 || 
             company === 3 || 
             language === 2) {
             
-            $("#cSharpResult").show();
+            $("#cSharpResult").fadeIn();
             $("#javaResult").hide();
             $("#phpResult").hide();
             $("#rubyResult").hide();
             $("#cssResult").hide();
             $("#survey").hide();
+            $("#landing").hide();
         
         } else if (experience === 3 && 
             stack === 2 && 
@@ -38,10 +40,11 @@ $(document).ready(function() {
                 
             $("#cSharpResult").hide();
             $("#javaResult").hide();
-            $("#phpResult").show();
+            $("#phpResult").fadeIn();
             $("#rubyResult").hide();
             $("#cssResult").hide();
             $("#survey").hide();
+            $("#landing").hide();
 
         } else if (experience === 2 &&
             (company === 1 || 4) && 
@@ -51,9 +54,10 @@ $(document).ready(function() {
             $("#cSharpResult").hide();
             $("#javaResult").hide();
             $("#phpResult").hide();
-            $("#rubyResult").show();
+            $("#rubyResult").fadeIn();
             $("#cssResult").hide();
             $("#survey").hide();
+            $("#landing").hide();
 
         } else if (language === 4 || 
             ((experience === 4 || 1)  && 
@@ -64,17 +68,19 @@ $(document).ready(function() {
             $("#javaResult").hide();
             $("#phpResult").hide();
             $("#rubyResult").hide();
-            $("#cssResult").show();
+            $("#cssResult").fadeIn();
             $("#survey").hide();
+            $("#landing").hide();
 
         } else { 
 
             $("#cSharpResult").hide();
-            $("#javaResult").show();
+            $("#javaResult").fadeIn();
             $("#phpResult").hide();
             $("#rubyResult").hide();
             $("#cssResult").hide();
             $("#survey").hide();
+            $("#landing").hide();
         
         }
     });

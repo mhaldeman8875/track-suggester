@@ -75,3 +75,22 @@ body {
  #formTwo {
      padding-left: 20px;
  }
+
+h4 {
+    text-align: center;
+}
+
+p.resultTxt {
+    margin: 5%;
+}
+
+ #cSharpResult, #javaResult, #phpResult, #rubyResult, #cssResult {
+     display: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
