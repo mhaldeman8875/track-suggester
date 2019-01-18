@@ -71,3 +71,7 @@ body {
  #survey {
      display: none;
  }
+
+ #formTwo {
+     padding-left: 20px;
+ }
