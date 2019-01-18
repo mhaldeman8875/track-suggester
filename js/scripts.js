@@ -25,6 +25,7 @@ $(document).ready(function() {
             company === 3 || 
             language === 2) {
             
+            $(".well").show();
             $("#cSharpResult").fadeIn();
             $("#javaResult").hide();
             $("#phpResult").hide();
@@ -38,6 +39,7 @@ $(document).ready(function() {
             industry === 2 || 
             language === 5) {
                 
+            $(".well").show();
             $("#cSharpResult").hide();
             $("#javaResult").hide();
             $("#phpResult").fadeIn();
@@ -46,11 +48,12 @@ $(document).ready(function() {
             $("#survey").hide();
             $("#landing").hide();
 
-        } else if (experience === 2 &&
+        } else if ((experience === 2 &&
             (company === 1 || 4) && 
             stack === 1 &&
-            size === 1) { 
+            size === 1) || language === 3) { 
 
+            $(".well").show();
             $("#cSharpResult").hide();
             $("#javaResult").hide();
             $("#phpResult").hide();
@@ -63,7 +66,8 @@ $(document).ready(function() {
             ((experience === 4 || 1)  && 
             (company === 1 || 4) && 
             stack === 1)) { 
-                   
+            
+            $(".well").show();
             $("#cSharpResult").hide();
             $("#javaResult").hide();
             $("#phpResult").hide();
@@ -74,6 +78,7 @@ $(document).ready(function() {
 
         } else { 
 
+            $(".well").show();
             $("#cSharpResult").hide();
             $("#javaResult").fadeIn();
             $("#phpResult").hide();
