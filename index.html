@@ -10,8 +10,70 @@
 <body>
     <div class="container">
         <div class="jumbotron">
-
+            <h1 class="display-3">Programming at Epicodus</h1>  <blockquote class="blockquote text-right">
+                <p id="txt">The most important thing is to get the basic principles of coding down, practice a lot, and be ready to change to another language when your job inevitably does.</p>
+                <footer class="blockquote-footer">Michael Kaiser-Nyman <cite title="Source Title">Epicodus</cite></footer>
+            </blockquote>
         </div>
+        <div class="row" id="landing">
+            <div class="col-md-8">
+                <h2 id="trackSuggester">Track Suggester</h2>
+                <p class="moreInfo">Hello and welcome to the Epicodus Track Selector! Do you want to start learning programming but don't know which languages you should focus on? This quick survey will help give you an idea of which of the tracks offered at Epicodus will suit you best!</p>
+            </div>
+            <div class="col-md-4">
+                <form id="formOne">
+                    <div class="form-group">
+                        <label for="name"><br><br>To begin, enter your name:</label>
+                        <input id="name" class="form-control" type="text">
+                    </div>
+                    <button type="submit" class="btn">Begin  survey</button> <br><br><br>
+                </form>
+            </div>
+            <img src="https://cdn-images-1.medium.com/max/1600/1*sXDzhjLdiAQgb8yu9JFiQA.png" id="bodyImg">
+       
+        </div>
+        <div id=survey>
+            <h2 id="welcome">Welcome, <span id="name"></span></h2>
+            <p id="instructions">In order to determine which of the tracks offered at Epicodus you should take, let's evaluate your interests and skills. Below are some multiple choice questions, select your answers and when you're done, click the "submit" button.</p>
+            <br>
+            <form id="formTwo">
+                <label for="experience">How much prior experience do you have with programming?</label>
+                <select id="experience">
+                    <option value="1">none</option>
+                    <option value="2">some</option>
+                    <option value="3">I have programmed with more than one language before</option>
+                </select>
+                <br>
+                <label for="languages">which languages have you programmed with before?</label>
+                <select id="languages">
+                    <option value="1">HTML</option>
+                    <option value="2">C#</option>
+                    <option value="3">Ruby</option>
+                    <option value="4">JavaScript</option>
+                    <option value="5">PHP</option>
+                    <option value="6">Java</option>
+                </select>
+                <br>
+                <label for="stack">What type of programming are you interested in?</label>
+                <select id="stack">
+                    <option value="1">Front-end</option>
+                    <option value="2">Back-end</option>
+                    <option value="3">Full-stack</option>
+                </select>
+                <br>
+                <label for="height">Select your height</label>
+                <select id="height">
+                    <option value="short">less than 5'4"</option>
+                    <option value="medium">between 5'4" and 5'9"</option>
+                    <option value="tall">taller than 5'9"</option>
+                </select>
+                <br>
+                <button type="submit" class="btn">Match me with a celebrity!</button>
+            </form>
+        </div>
+               
+        
+
     </div>
 </body>
 </html>
