@@ -83,7 +83,7 @@ body {
 
 .well {
     display: none;
-    background-color: aliceblue;
+    background-color: whitesmoke;
 }
 
  h2 {
@@ -100,3 +100,4 @@ body {
     margin-right: auto;
     width: 50%;
 }
+
