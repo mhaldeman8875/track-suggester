@@ -10,7 +10,8 @@ _This is a simple web application created independently by me for week two of Ep
 
 ## Setup/Installation Requirements
 
-* _Please visit the GitHub reposity for this project at "https://github.com/mhaldeman8875/track-suggester"
+* _Please visit the GitHub reposity for this project at "https://github.com/mhaldeman8875/track-suggester"_
+* _This code uses CDNs for Bootstrap and jQuery, and links to images online so make sure you have an internet connection_
 * _Clone repository or download to desktop_
 * _Open files using IDE (Atom or Visual Studio Code) to view code._
 * _Open index.html using your preferred web browser to preview webpage._
