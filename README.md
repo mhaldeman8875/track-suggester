@@ -15,6 +15,7 @@ _This is a simple web application created independently by me for week two of Ep
 * _Clone repository or download to desktop_
 * _Open files using IDE (Atom or Visual Studio Code) to view code._
 * _Open index.html using your preferred web browser to preview webpage._
+* _Or to view the live GitHub Page, visti https://mhaldeman8875.github.io/track-suggester/_
 
 
 ## GitHub Pages
