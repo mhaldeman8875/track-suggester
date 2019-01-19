@@ -14,7 +14,7 @@ body {
     color: white
 }
 
-h2#trackSuggester {
+#trackSuggester, #welcome {
     text-align: left;
 }
 
@@ -83,6 +83,7 @@ h2#trackSuggester {
 
 .well {
     display: none;
+    background-color: aliceblue;
 }
 
  h2 {
